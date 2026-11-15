@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <h1>QUIZ TIME!</h1>
+        <h2 id="quiz-title"></h2>
+    </header>
+
+    <main>
+        <section>
+            <form>
+                <fieldset>
+                    <legend id="question-display"></legend>
+                    <div class="answers">
+                        <button type="button" class="choice-button">Option 1</button>
+                        <button type="button" class="choice-button">Option 2</button>
+                        <button type="button" class="choice-button">Option 3</button>
+                        <button type="button" class="choice-button">Option 4</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- DEMO #3: Add section with paragraph for results after question is submitted -->
+        <section>
+            <p id="result-display"></p>
+        </section>
+        <!-- DEMO #4: Add section for next question button -->
+         <section class="actions">
+            <button type="button" id="next-question">Next Question</button>
+         </section>
+    </main>
+</body>
+</html>
